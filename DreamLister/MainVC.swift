@@ -28,7 +28,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         attempFetch()
         
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if let sections = fetchedResultController.sections{
